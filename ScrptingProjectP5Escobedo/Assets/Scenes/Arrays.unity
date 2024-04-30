@@ -123,6 +123,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &33606540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8595499853824040974, guid: 84bb641af2094b446b1aa28c23b9f16c, type: 3}
+  m_PrefabInstance: {fileID: 721864938}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &33606546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33606540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbbd8ef5e66c33a4eab3a0097147a387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  players: []
 --- !u!1001 &167912117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -133,15 +151,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7822958478520579090, guid: be2f45d73ea957749aa93d4eda0ec758, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0709548
+      value: -0.18
       objectReference: {fileID: 0}
     - target: {fileID: 7822958478520579090, guid: be2f45d73ea957749aa93d4eda0ec758, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.3378369
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: 7822958478520579090, guid: be2f45d73ea957749aa93d4eda0ec758, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.816733
+      value: -2.79
       objectReference: {fileID: 0}
     - target: {fileID: 7822958478520579090, guid: be2f45d73ea957749aa93d4eda0ec758, type: 3}
       propertyPath: m_LocalRotation.w
@@ -331,7 +349,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8595499853824040974, guid: 84bb641af2094b446b1aa28c23b9f16c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 33606546}
   m_SourcePrefab: {fileID: 100100000, guid: 84bb641af2094b446b1aa28c23b9f16c, type: 3}
 --- !u!1001 &783286228
 PrefabInstance:
@@ -343,15 +364,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1068670334954299971, guid: 289893c5b115e254180944f56e30f7ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.18
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 1068670334954299971, guid: 289893c5b115e254180944f56e30f7ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.75
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1068670334954299971, guid: 289893c5b115e254180944f56e30f7ff, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.331832
+      value: -2.4
       objectReference: {fileID: 0}
     - target: {fileID: 1068670334954299971, guid: 289893c5b115e254180944f56e30f7ff, type: 3}
       propertyPath: m_LocalRotation.w
@@ -408,7 +429,7 @@ GameObject:
   - component: {fileID: 1454215228}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -495,7 +516,7 @@ Transform:
   m_GameObject: {fileID: 1454215227}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.82, y: -0.24, z: -7.53}
+  m_LocalPosition: {x: -1.73, y: -0.59, z: -3.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
